@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "garmin-interview"
+version = "0.1.0"
+description = ""
+authors = ["Jimshih <m11001107@ntust.edu.tw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+elasticsearch = "^8.14.0"
+confluent-kafka = "^2.4.0"
+prettier = "^0.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
